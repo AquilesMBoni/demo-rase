@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_access
+  - ask_password
+  - ask_activities
+
+responses:
+  utter_greet:
+    - text: "Olá! Sou o assistente virtual da plataforma de ensino. Como posso ajudar?"
+
+  utter_goodbye:
+    - text: "Até mais! Espero ter ajudado."
+
+  utter_access:
+    - text: "Para acessar a plataforma, entre na página de login e informe seu e-mail institucional e sua senha."
+
+  utter_password:
+    - text: "Para recuperar sua senha, acesse a tela de login e clique na opção Esqueci minha senha. Siga as instruções enviadas ao seu e-mail."
+
+  utter_activities:
+    - text: "Para consultar suas atividades e prazos, acesse a disciplina desejada e procure pela seção de atividades."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

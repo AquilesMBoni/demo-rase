@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - oi
+    - olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - tudo bem?
+    - ola, preciso de ajuda
+
+- intent: goodbye
+  examples: |
+    - tchau
+    - até mais
+    - obrigado, até logo
+    - valeu
+    - encerrar conversa
+
+- intent: ask_access
+  examples: |
+    - como faço login?
+    - como acesso a plataforma?
+    - não consigo entrar
+    - onde faço meu acesso?
+    - como entrar na minha conta?
+    - qual o endereço da plataforma?
+    - preciso acessar minha conta
+    - como faço para entrar no sistema?
+
+- intent: ask_password
+  examples: |
+    - esqueci minha senha
+    - como recuperar minha senha?
+    - não lembro minha senha
+    - como trocar minha senha?
+    - perdi o acesso à minha conta
+    - como redefinir minha senha?
+    - não consigo lembrar meus dados de acesso
+    - preciso criar uma nova senha
+
+- intent: ask_activities
+  examples: |
+    - onde vejo minhas atividades?
+    - quais são os prazos das atividades?
+    - como consultar minhas tarefas?
+    - onde ficam os trabalhos?
+    - quando devo entregar uma atividade?
+    - como saber as datas de entrega?
+    - onde encontro as atividades das disciplinas?
+    - quero consultar meus trabalhos pendentes
